@@ -12,15 +12,14 @@ html {
 }
 
 body{
-	font-family: lato,serif;
-	color: rgb(107, 105, 114);
+  font-family: lato,serif;
+  color: rgb(107, 105, 114);
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, table, hr {
   margin: 0 0 1.5rem;
 }
-
 
 .yotta {
   font-size: 3.5832rem;
@@ -84,6 +83,11 @@ h1, h2, h3, h4, h5, h6, .brand {
 
 .giga, .tera {
     text-transform: uppercase;
+}
+
+::selection {
+  background-color: rgb(72, 130, 121) ;
+  color: #fff;
 }
 
 a,
