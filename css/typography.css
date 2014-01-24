@@ -127,3 +127,83 @@ li{
   left: 1rem;
    line-height: 2rem;
 }
+
+dl dt{
+  font-size: 1.1rem;
+  font-weight:800;
+}
+
+blockquote {
+  padding: 0 1.5em 0 1.25em;
+  margin: 4em 4rem;
+}
+
+blockquote:before {
+
+  content: "‟";
+  font-size: 10rem;
+  position: absolute;
+  color: rgb(172, 212, 206);
+  margin-top: -7.5rem;
+  margin-left: 20%;
+}
+
+footer {
+  float: right;
+  margin-right: 3rem;
+  color:  rgb(72, 130, 121);
+}
+
+caption {
+  margin: 0 0 1.5em;
+  color: rgb(72, 130, 121);
+}
+
+mark {
+  background-color: rgba(35, 83, 105,.5);
+}
+
+hr {
+  border: 1px solid rgb(78, 174, 174);
+
+}
+
+dt {
+  display: block;
+  font-weight:;
+  color: rgb(78, 174, 174);
+}
+
+dd {
+  margin-left: ;
+}
+
+tr{
+  border: 2px solid #fff;
+}
+
+table {
+  margin: ;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color:rgba(78, 174, 174, .4);
+}
+
+thead {
+  font-family:;
+  background: rgba();
+}
+
+th, td {
+  border-bottom: 1px solid #;
+  padding: 1em;
+
+}
+
+th {
+  color:#fff;
+  text-align: left;
+  border: 2px solid #fff;
+  font-weight: 300;
+  background-color:rgba(72, 130, 121, 0.4);
+}
