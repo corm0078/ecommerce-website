@@ -85,3 +85,45 @@ h1, h2, h3, h4, h5, h6, .brand {
 .giga, .tera {
     text-transform: uppercase;
 }
+
+a,
+a:link {
+    color:rgb(78, 174, 174);
+    text-decoration: none;
+    border-bottom: 3px dotted rgb(78, 174, 174);
+    transition: all 200ms linear;
+}
+
+a:visited {
+  color: rgb(172, 212, 206);
+  border-bottom-color: rgb(172, 212, 206);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: rgb(35, 83, 105);
+  border-bottom-color: rgb(35, 83, 105);
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li, ol{
+    position: relative;
+    color:rgb(35, 83, 105);
+}
+
+ul li:before {
+  content:"△";
+  position: absolute;
+  font-size: 1.5rem;
+  left: -3rem;
+  line-height: 1,5rem;
+}
+
+li{
+  left: 1rem;
+   line-height: 2rem;
+}
