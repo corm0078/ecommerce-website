@@ -1,5 +1,13 @@
+/*
+  Colour Palette
+  - light green bleu: #acd4ce - rgb(172, 212, 206)
+  - green bleu: #488279 - rgb(72, 130, 121)
+  - deep green: #4eaeae - rgb(78, 174, 174)
+  - grey: #6b6972 - rgb(107, 105, 114)
+  - bleu: #235369 - rgb(35, 83, 105)
+*/
 h2{
- border-top: none;   
+    border-top: none;
 }
 
 .bar{
@@ -15,10 +23,33 @@ h2{
 }
 
 
-.product{
-	border-radius: 10px;
-    box-shadow: none;
+.promo-large{
+    background-color:rgb(35, 83, 105);
+    text-align: center;
+    padding: 10rem 1rem
 }
+
+.bar-btn,
+.bar-btn:link,
+.bar-btn:visited{
+    background-color: none; 
+    color: #fff;
+    border: none;
+}
+
+.bar-btn:hover,
+.bar-btn:focus,
+.bar-btn:active{
+    color: rgb(107, 105, 114);   
+}
+
+
+.promo-large h2{
+    color: #fff;   
+}
+
+
+
 
 .bar-bottom,
 .bar-bottom:link,
