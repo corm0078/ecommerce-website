@@ -31,3 +31,9 @@ h2{
 	color: #fff;
     border:none;
 }
+
+.bar-bottom:hover,
+.bar-bottom:focus,
+.bar-bottom:active{
+    background-color: rgb(72, 130, 121);  
+}
