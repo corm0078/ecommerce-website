@@ -78,11 +78,11 @@ h1, h2, h3, h4, h5, h6, .brand {
 }
 
 .yotta {
-    text-transform: uppercase;
+  text-transform: uppercase;
   }
 
 .giga, .tera {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 ::selection {
@@ -92,10 +92,10 @@ h1, h2, h3, h4, h5, h6, .brand {
 
 a,
 a:link {
-    color:rgb(78, 174, 174);
-    text-decoration: none;
-    border-bottom: 3px dotted rgb(78, 174, 174);
-    transition: all 200ms linear;
+  color:rgb(78, 174, 174);
+  text-decoration: none;
+  border-bottom: 3px dotted rgb(78, 174, 174);
+  transition: all 200ms linear;
 }
 
 a:visited {
@@ -115,8 +115,8 @@ ul{
 }
 
 ul li, ol{
-    position: relative;
-    color:rgb(35, 83, 105);
+  position: relative;
+  color:rgb(35, 83, 105);
 }
 
 ul li:before {
@@ -129,7 +129,7 @@ ul li:before {
 
 li{
   left: 1rem;
-   line-height: 2rem;
+  line-height: 2rem;
 }
 
 dl dt{
@@ -143,7 +143,6 @@ blockquote {
 }
 
 blockquote:before {
-
   content: "‟";
   font-size: 10rem;
   position: absolute;
@@ -169,7 +168,6 @@ mark {
 
 hr {
   border: 1px solid rgb(78, 174, 174);
-
 }
 
 dt {
