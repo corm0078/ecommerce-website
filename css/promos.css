@@ -1,0 +1,33 @@
+h2{
+ border-top: none;   
+}
+
+.bar{
+  	display: inline-block;
+	padding: 0rem 2rem ;
+	background-color: #a9d0ca;
+	border-radius: 0px;
+    box-shadow: 5px 3px rgb(148, 181, 176);
+    position: absolute;
+    margin:-0.2rem auto 0 -0.3rem;
+
+	color: #fff;  
+}
+
+
+.product{
+	border-radius: 10px;
+    box-shadow: none;
+}
+
+.bar-bottom,
+.bar-bottom:link,
+.bar-bottom:visited{
+	padding: 0rem 1.98rem ;
+	background-color: #a9d0ca;
+	border-radius: 0px;
+    position: absolute;
+    margin-top:-8rem;
+	color: #fff;
+    border:none;
+}
