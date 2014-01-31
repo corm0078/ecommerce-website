@@ -48,9 +48,6 @@ h2{
     color: #fff;   
 }
 
-
-
-
 .bar-bottom,
 .bar-bottom:link,
 .bar-bottom:visited{
@@ -60,11 +57,15 @@ h2{
     position: absolute;
     margin-top:-8rem;
 	color: #fff;
-    border:none;
+    border: none;
 }
 
 .bar-bottom:hover,
 .bar-bottom:focus,
 .bar-bottom:active{
     background-color: rgb(72, 130, 121);  
+}
+
+.product{
+    box-shadow: none;
 }
