@@ -1,4 +1,4 @@
-/*.hide-text {
+.hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -16,10 +16,25 @@
 	padding-top: 0.5rem;
 	font-size: 2rem;
 }
-*/
 
 .copyright{
-    background-color: #cecece;
-    color:#a7a6a6;  
+    background-color: #6f6d6d; 
+    color: #a8a7a7;
+    padding: 2rem;
+    text-align: center;
 }
+
+li{
+    display: inline-block;
+        
+}
+
+.social{
+    margin-left: 5rem;
+
+        
+}
+
+
+
 

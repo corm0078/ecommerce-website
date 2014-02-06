@@ -151,12 +151,6 @@ blockquote:before {
   margin-left: 20%;
 }
 
-footer {
-  float: right;
-  margin-right: 3rem;
-  color:  rgb(72, 130, 121);
-}
-
 caption {
   margin: 0 0 1.5em;
   color: rgb(72, 130, 121);
