@@ -26,13 +26,17 @@
 
 li{
     display: inline-block;
+    margin-bottom: 2rem;
         
 }
 
 .social{
-    margin-left: 5rem;
+    margin-left: 4rem; 
+    padding: 1rem;
+}
 
-        
+.background{
+    background-color:rgb(172, 212, 206);
 }
 
 
