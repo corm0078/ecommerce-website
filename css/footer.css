@@ -1,0 +1,25 @@
+/*.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.links li a,
+.links li a:link,
+.links li a:visited{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-right: 1rem;
+	text-align:center;
+	padding-top: 0.5rem;
+	font-size: 2rem;
+}
+*/
+
+.copyright{
+    background-color:#a7a6a6;
+    color: #cecece;  
+}
+
