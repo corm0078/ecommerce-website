@@ -14,7 +14,7 @@ header{
 nav a,
 nav a:link,
 nav a:visited{
-    padding: 1rem;
+    padding: 0.5rem;
 	background-color: rgb(35, 83, 105);
     color: #fff;
     border-bottom: none;
@@ -24,19 +24,42 @@ nav a:hover,
 nav a:focus,
 nav a:active{
 	background-color: #fff;
-    color:rgb(35, 83, 105);
-    
+    color:rgb(35, 83, 105);  
 }
 
 nav ul{
     background-color: rgb(35, 83, 105);
     padding: 0.6rem;
-    text-align: center;
 }
 
 .search{
     background-color: rgb(35, 83, 105);
     padding: 1rem;
 }
+
+.logo{
+    width: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -15%;
+}
+
+@media only screen and (min-width: 30em) {
+    
+ nav ul{
+     text-align: center;   
+    }
+    
+    .logo{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+    .logo{
+        margin-left:-10%;
+    
+}
+
 
 
