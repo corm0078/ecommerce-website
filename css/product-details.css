@@ -68,11 +68,21 @@ h2{
     }
     
     .left-buy{
-        margin-top: -6.5rem;   
+        margin-top: -6.5rem; 
+        margin-right: -3rem;
     }
-        
-
-
+    
+    .price-l{
+     margin-right: 5%;   
+    }
+    
 }
+
+@media only screen and (min-width: 75em){
+    
+    .media{
+        margin: 5rem 8rem 0 8rem;
+        
+    
     
 }
