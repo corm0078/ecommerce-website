@@ -18,10 +18,13 @@ h2{
 .description p{
     border-left: 2px dotted rgb(35, 83, 105);
     padding-left: 1rem;
-    margin-left: 1rem;
-        
+    margin-left: 1rem;       
 }
 
+.d-2{
+    display: none;
+}
+    
 .left-buy{
     float: right;
 }
@@ -32,8 +35,44 @@ h2{
 
 @media only screen and (min-width: 30em){
     
-   .img-des{
-     width: 10rem;   
+   .img-s{
+     width: 25rem;
+     margin-left: 10%;
     }
+    
+    .description p{
+     width: 25rem;
+    margin-left: 2.5rem;    
+    }
+    
+}
+
+@media only screen and (min-width: 50em){
+    
+  .d-1{
+     display: none;
+    }
+    
+   .d-2{
+     display: block;   
+    }
+    
+    .description p{
+        width: auto;
+        margin-left: 5rem;
+    }
+    
+    .d-2 h2{
+        margin-left: 4%;
+        width: 95%;
+    }
+    
+    .left-buy{
+        margin-top: -6.5rem;   
+    }
+        
+
+
+}
     
 }
