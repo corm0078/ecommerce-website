@@ -34,7 +34,7 @@ input[type="search"]::-webkit-search-decoration {
 
 #search input[type="search"] {
 	background: #f0f0f0;
-	color: #cecece;
+	color: black;
 	min-width: 130px;
 	padding: 3px 7px; 
     border: none;
