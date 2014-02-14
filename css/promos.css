@@ -6,6 +6,7 @@
   - grey: #6b6972 - rgb(107, 105, 114)
   - bleu: #235369 - rgb(35, 83, 105)
 */
+
 h2{
     border-top: none;
 }
@@ -26,7 +27,11 @@ h2{
 .promo-large{
     background-color:rgb(35, 83, 105);
     text-align: center;
-    padding: 10rem 1rem
+    padding: 1rem;
+}
+
+.body-promo-l{
+  margin-top: 3rem;   
 }
 
 .bar-btn,
@@ -68,4 +73,13 @@ h2{
 
 .product{
     box-shadow: none;
+}
+
+
+.promo-img-l{
+    
+ float: left;
+    
+    
+
 }

@@ -1,3 +1,12 @@
+/*
+  Colour Palette
+  - light green bleu: #acd4ce - rgb(172, 212, 206)
+  - green bleu: #488279 -
+  - deep green: #4eaeae - rgb(78, 174, 174)
+  - grey: #6b6972 - rgb(107, 105, 114)
+  - bleu: #235369 - rgb(35, 83, 105)
+*/
+
 .hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -56,8 +65,7 @@
     
     .social{
         display: none;   
-    }
-    
+    }   
     
 }
 

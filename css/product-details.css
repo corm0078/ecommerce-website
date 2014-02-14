@@ -6,6 +6,7 @@
   - grey: #6b6972 - rgb(107, 105, 114)
   - bleu: #235369 - rgb(35, 83, 105)
 */
+
 h2{
     border-bottom: 2px dotted rgb(172, 212, 206); 
     border-top: none;
@@ -33,17 +34,27 @@ h2{
     text-align: right;
 }
 
+.price-m{
+    margin-right: 5%;
+}
+
+
+
 @media only screen and (min-width: 30em){
     
    .img-s{
-     width: 25rem;
-     margin-left: 10%;
+        width: 25rem;
+        margin-left: 10%;
     }
     
     .description p{
-     width: 25rem;
-    margin-left: 2.5rem;    
+        width: 25rem;
+        margin-left: 2.5rem;    
     }
+    
+    .price-m{
+    margin-right: 35%;
+}
     
 }
 
@@ -73,7 +84,8 @@ h2{
     }
     
     .price-l{
-     margin-right: 5%;   
+     margin-right: 5%;
+     margin-top: 3rem;
     }
     
 }
@@ -81,8 +93,5 @@ h2{
 @media only screen and (min-width: 75em){
     
     .media{
-        margin: 5rem 8rem 0 8rem;
-        
-    
-    
+            margin: 5rem 8rem 0 8rem;   
 }

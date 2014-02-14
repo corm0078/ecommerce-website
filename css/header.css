@@ -50,39 +50,39 @@ nav ul{
 
 @media only screen and (min-width: 30em) {
     
- nav ul{
-     text-align: center;   
-    }
+     nav ul{
+         text-align: center;   
+     }
     
-    .logo{
-        margin-left: 5%;
-    }
-    
-    .search{
+     .logo{
+         margin-left: 5%;
+     }
+        
+     .search{
         text-align:right;
-    }
+      }
 
 @media only screen and (min-width: 50em) {
-    .logo{
-        margin-left:-10%;
-    }
+      .logo{
+            margin-left:-10%;
+      }
 }
 
 @media only screen and (min-width: 65em) {
-    .small-nav{
-        display: none;
-    }
-        
-    .large-nav{
-        display: block;
-        text-align: left;
-        position: absolute;
-        margin-top: 0.5rem;                       
-    }
-        
-    .large-nav li{
-         margin-right: 1rem;
-        }
+     .small-nav{
+          display: none;
+     }
+            
+     .large-nav{
+           display: block;
+           text-align: left;
+           position: absolute;
+           margin-top: 0.5rem;                       
+      }
+            
+     .large-nav li{
+          margin-right: 1rem;
+      }
 }
 
 
