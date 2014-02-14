@@ -59,12 +59,12 @@ nav ul{
      }
         
      .search{
-        text-align:right;
+        text-align: right;
       }
 
 @media only screen and (min-width: 50em) {
       .logo{
-            margin-left:-10%;
+            margin-left: -10%;
       }
 }
 
@@ -84,8 +84,3 @@ nav ul{
           margin-right: 1rem;
       }
 }
-
-
-
-
-
