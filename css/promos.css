@@ -28,6 +28,7 @@ h2{
     background-color:rgb(35, 83, 105);
     text-align: center;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .body-promo-l{
@@ -60,7 +61,7 @@ h2{
 	background-color: #a9d0ca;
 	border-radius: 0px;
     position: absolute;
-    margin-top:-8rem;
+    margin-top:-3rem;
 	color: #fff;
     border: none;
 }
@@ -73,6 +74,10 @@ h2{
 
 .product{
     box-shadow: none;
+}
+
+.small-promo{
+ padding-bottom:2rem;   
 }
 
 
