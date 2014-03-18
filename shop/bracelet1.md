@@ -1,6 +1,5 @@
 ---
-layout: shop
-category: bracelet 
+category: bracelet
 title: bracelet
 image: bracelets/bracelet1.jpg
 ---

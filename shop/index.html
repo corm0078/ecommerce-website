@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: shop
 title: Shop
 meta: Discover all the jewelry Koral has to offer.
 ---
@@ -12,15 +12,30 @@ meta: Discover all the jewelry Koral has to offer.
     </div>
  </div>
 
+
+    <ul>
+        {% for shop in site.pages %}
+            {% if shop.category == 'bracelet' %}
+                <li>
+                    <a href="{{site.baseurl}}{{shop.url}}">
+                        <img src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                        {{shop.title}}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+
 <ul>
     {% for shop in site.pages %}
-        {% if shop.category == 'shop' %}
+        {% if shop.category == 'necklace' %}
             <li>
                 <a href="{{site.baseurl}}{{shop.url}}">
+                    <img src="{{site.baseurl}}/images/{{shop.image}}" alt="">
                     {{shop.title}}
                 </a>
             </li>
-    
         {% endif %}
     {% endfor %}
-</ul>
+</ul

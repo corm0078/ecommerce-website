@@ -1,0 +1,18 @@
+---
+layout: shop
+title: Bracelets
+meta: Discover all the bracelet jewelry Koral has to offer.
+---
+
+ <ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'bracelet' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}">
+                     <img src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                    {{shop.title}}
+                 </a>
+            </li>
+        {% endif %}
+     {% endfor %}
+</ul>
