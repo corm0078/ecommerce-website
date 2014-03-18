@@ -1,38 +1,34 @@
 ---
 layout: default
 ---
-<body>
+
      <div>
          <div class="media d-1">
             <div class="media-img media-img-stacked">
-                <h2 class="space-none tera">Product Name</h2>
+                <h2 class="space-none tera">{{page.h2}}</h2>
                 <img class="img-flex img-s" src="http://placehold.it/450x500/" alt="">
             </div>
              
                  <div class="media-body description">
-                     <p>Bacon ipsum dolor sit amet ribeye corned beef brisket ham sirloin, pancetta jowl. Jowl kielbasa tri-tip beef ribs meatball shankle beef venison. Prosciutto jowl tail, biltong ham hock fatback doner drumstick bresaola shoulder. Pork chop andouille jowl t-bone prosciutto pork loin pastrami ham fatback filet mignon short loin beef ribs. Pork loin jerky landjaeger biltong t-bone tri-tip ribeye pig brisket ball tip tail.
-    
-    Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>
+                     <p>{{page.paragraph}}</p>
                     <div class="left-buy description price-m">
-                        <h3 class="giga">$10.00 Can.</h3>
+                        <h3 class="giga">{{page.price}}</h3>
                         <a class="btn mega" href="#">Add to Cart</a>
                     </div>
                  </div>
             </div>
          
             <div class="media d-2">
-                <h2 class="space-none tera">Product Name</h2>
+                <h2 class="space-none tera">{{page.h2}}</h2>
                 <div class="media-img">
                     <img class="img-flex img-s" src="http://placehold.it/450x500/" alt="">
                 </div>
             
             <div class="media-body description">
-                    <p>Bacon ipsum dolor sit amet ribeye corned beef brisket ham sirloin, pancetta jowl. Jowl kielbasa tri-tip beef ribs meatball shankle beef venison. Prosciutto jowl tail, biltong ham hock fatback doner drumstick bresaola shoulder. Pork chop andouille jowl t-bone prosciutto pork loin pastrami ham fatback filet mignon short loin beef ribs. Pork loin jerky landjaeger biltong t-bone tri-tip ribeye pig brisket ball tip tail.
-    
-    Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>
+                    <p>{{page.paragraph}}</p>
                 
                     <div class="left-buy description price-l">
-                        <h3 class="giga">$10.00 Can.</h3>
+                        <h3 class="giga">{{page.price}}</h3>
                         <a class="btn mega" href="#">Add to Cart</a>
                     </div>
             </div>
@@ -40,7 +36,6 @@ layout: default
          
      
     </div>  
-</body>
 
 
 {{content}}

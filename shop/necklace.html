@@ -11,15 +11,16 @@ meta: Discover all the neckless jewelry Koral has to offer.
     </ul>
 </nav>
 
+<h1>{{page.title}}</h1>
+
 
 <div class="grid">
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
         <ul>
             {% for shop in site.pages %}
                 {% if shop.category == 'necklace' %}
-                   <li class="list-group list-group-item product">
-                        <a class="tera" href="{{site.baseurl}}{{shop.url}}">
-                            <img class="img img-nonflex" src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                  <li class="list-group list-group-item unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                        <a class="tera unit unit-s-1 unit-m-1-2 unit-l-2-2" href="{{site.baseurl}}{{shop.url}}">
+                             <img class="img img-flex" src="{{site.baseurl}}/images/{{shop.image}}" alt="">
                             {{shop.title}}
                         </a>
                     </li>
