@@ -1,6 +1,6 @@
 ---
 layout: shop
-category: neckless 
-title: neckless
+category: necklace
+title: necklace
 image: bracelets/bracelet2.jpg
 ---
