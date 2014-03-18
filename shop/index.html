@@ -1,11 +1,18 @@
 ---
-layout: shop
+layout: default
 title: Shop
 meta: Discover all the jewelry Koral has to offer.
 ---
+<nav>
+    <ul class="text-center">
+                        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'bracelet' %}current{% endif%}" href="{{site.baseurl}}bracelet">Bracelets</a></a></li>
+                        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'necklace' %}current{% endif%}" href="{{site.baseurl}}necklace">Necklaces</a></li>
+    </ul>
+</nav>
+
 <div>
     <div class="text-center">
-                <p>Discover everything Koral has to offer.</p>
+                <p class=" tera">Discover everything Koral has to offer.</p>
     </div>
  </div>
 
@@ -15,9 +22,9 @@ meta: Discover all the jewelry Koral has to offer.
         <ul>
         {% for shop in site.pages %}
             {% if shop.category == 'bracelet' %}
-                <li>
-                    <a href="{{site.baseurl}}{{shop.url}}">
-                        <img class="img img-flex" src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                <li class="list-group list-group-item">
+                    <a class="tera" href="{{site.baseurl}}{{shop.url}}">
+                        <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
                         {{shop.title}}
                     </a>
                 </li>
@@ -31,9 +38,9 @@ meta: Discover all the jewelry Koral has to offer.
     <ul>
         {% for shop in site.pages %}
             {% if shop.category == 'necklace' %}
-                <li>
-                    <a href="{{site.baseurl}}{{shop.url}}">
-                        <img class="img img-flex" src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                <li class="list-group list-group-item">
+                    <a class="tera" href="{{site.baseurl}}{{shop.url}}">
+                        <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
                         {{shop.title}}
                     </a>
                 </li>
