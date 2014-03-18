@@ -6,7 +6,7 @@ layout: default
          <div class="media d-1">
             <div class="media-img media-img-stacked">
                 <h2 class="space-none tera">{{page.h2}}</h2>
-                <img class="img-flex img-s" src="http://placehold.it/450x500/" alt="">
+                <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
             </div>
              
                  <div class="media-body description">
@@ -21,7 +21,7 @@ layout: default
             <div class="media d-2">
                 <h2 class="space-none tera">{{page.h2}}</h2>
                 <div class="media-img">
-                    <img class="img-flex img-s" src="http://placehold.it/450x500/" alt="">
+                    <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
                 </div>
             
             <div class="media-body description">
@@ -33,9 +33,6 @@ layout: default
                     </div>
             </div>
         </div>
-         
-     
     </div>  
-
 
 {{content}}
