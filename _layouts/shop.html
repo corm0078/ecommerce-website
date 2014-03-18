@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
-
 <nav>
-    <ul class="large-nav giga">
+    <ul class="text-center">
                         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'bracelet' %}current{% endif%}" href="{{site.baseurl}}bracelet">Bracelets</a></a></li>
                         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'necklace' %}current{% endif%}" href="{{site.baseurl}}necklace">Necklaces</a></li>
     </ul>
 </nav>
+
+<h1>{{page.title}}</h1>
 
 {{content}}
