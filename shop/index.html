@@ -3,12 +3,7 @@ layout: default
 title: Shop
 meta: Discover all the jewelry Koral has to offer.
 ---
-<nav>
-    <ul class="text-center">
-                        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'shop/bracelet/' %}current{% endif%}" href="{{site.baseurl}}shop/bracelet/">Bracelets</a></a></li>
-                        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == 'shop/necklace/' %}current{% endif%}" href="{{site.baseurl}}shop/necklace/">Necklaces</a></li>
-    </ul>
-</nav>
+{% include shop-nav.html %}
 
 <h1>{{page.title}}</h1>
 
