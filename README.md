@@ -7,6 +7,6 @@ ecommerce-website
 
 Code licensed under the [MIT License](LICENSE).
 
-Design, Imagery, and text licendes under the [Creative Commons License](http://creativecommons.org/licenses/by-nc/4.0/).
+Design, Imagery, and text licendes under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 

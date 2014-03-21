@@ -7,6 +7,10 @@
   - bleu: #235369 - rgb(35, 83, 105)
 */
 
+.space{
+ margin-bottom: 3rem;   
+}
+
 h2{
     border-bottom: 2px dotted rgb(172, 212, 206); 
     border-top: none;
@@ -90,9 +94,3 @@ h2{
     
 }
 
-@media only screen and (min-width: 75em){
-    
-    .media{
-            margin: 5rem 8rem 0 8rem;   
-        }
-}
