@@ -2,6 +2,7 @@
 layout: default
 ---
 {% include shop-nav.html %}
+
      <div class="space">
          <div class="media d-1">
             <div class="media-img media-img-stacked">
@@ -13,7 +14,7 @@ layout: default
                      <p>{{page.paragraph}}</p>
                     <div class="left-buy description price-m">
                         <h3 class="giga">{{page.price}}</h3>
-                        <a class="btn mega" href="#">Add to Cart</a>
+                        <a class="btn mega" href="{{site.baseurl}}/cart/">Add to Cart</a>
                     </div>
                  </div>
             </div>
@@ -29,7 +30,7 @@ layout: default
                 
                     <div class="left-buy description price-l">
                         <h3 class="giga">{{page.price}}</h3>
-                        <a class="btn mega" href="#">Add to Cart</a>
+                        <a class="btn mega" href="{{site.baseurl}}/cart/">Add to Cart</a>
                     </div>
             </div>
         </div>
