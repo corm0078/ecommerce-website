@@ -2,39 +2,41 @@
 layout: default
 title: Cart
 image: bracelets/bracelet2.jpg
-h2: peace to the world
-paragraph: Sub-Total: 10$CAN
-price: 15.99$ CAN
+paragraph: Iteam name 9.99$
+sub-total: Sub-total 10.00$
+shipping: Shipping 5.99$
+price: Total 15.99$ CAN
 ---
 
 <h1>Cart</h1>
 
-     <div class="space">
-         <div class="media d-1">
-            <div class="media-img media-img-stacked">
-                <h2 class="space-none tera"></h2>
-                <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
-            </div>
-             
-                 <div class="media-body description">
-                     <p>{{page.paragraph}}</p>
-                    <div class="left-buy description price-m">
-                        <h3 class="giga">{{page.price}}</h3>
-                        <a class="btn btn-alt mega" href="{{site.baseurl}}/thank-you/">Buy</a>
-                    </div>
-                 </div>
-            </div>
-         
-            <div class="media d-2">
-                <h2 class="space-none tera">{{page.h2}}</h2>
+        <div class="grid">
+            <div class="media unit unit-s-1 unit-m-1-2 unit-l-1-2">
                 <div class="media-img">
-                    <img class="img-flex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
+                    <img class="img img-nonflex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
                 </div>
+                <div class="media-body">
+                    <p> Peace and Love bracelet</p>
+                </div>
+            </div>
+                
+            <div class="media unit unit-s-1 unit-m-1-2 unit-l-2-2">
+                <div class="media-img">
+                    <img class="img img-nonflex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
+                </div>
+                <div class="media-body">
+                <p> Peace and Love bracelet</p>
+                </div>
+            </div>
+        </div>
+
             
             <div class="media-body description">
                     <p>{{page.paragraph}}</p>
+                     <p>{{page.sub-total}}</p>
+                     <p>{{page.shipping}}</p>
                 
-                    <div class="left-buy description price-l">
+                    <div class="description price-l">
                         <h3 class="giga">{{page.price}}</h3>
                         <a class="btn btn-alt mega" href="{{site.baseurl}}/thank-you/">Buy</a>
                     </div>

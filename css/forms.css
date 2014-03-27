@@ -52,3 +52,50 @@ input[type="search"]::-webkit-search-decoration {
 	margin-left:-7px;
     border-radius: 2px;
 }
+
+.shop-cart{
+    float: right;
+    margin-top: -2.5rem;
+}
+
+@media only screen and (min-width: 30em){
+    .shop-cart{
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 50%;
+    }
+}
+
+@media only screen and (min-width: 30em){
+    .shop-cart{
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (min-width: 50em){
+    .shop-cart{
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (min-width: 57em){
+    .shop-cart{
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 28%;
+    }
+}
+
+@media only screen and (min-width: 72em){
+    .shop-cart{
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 23%;
+    }
+}
+
+
