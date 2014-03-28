@@ -8,38 +8,42 @@ shipping: Shipping 5.99$
 price: Total 15.99$ CAN
 ---
 
-<h1 class="margin2">Cart</h1>
-
-        <div class="grid">
-            <div class="media unit unit-s-1 unit-m-1-2 unit-l-1-2">
-                <div class="media-img">
-                    <img class="img img-nonflex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
-                </div>
-                <div class="media-body">
-                    <p> Peace and Love bracelet</p>
-                </div>
-            </div>
-                
-            <div class="media unit unit-s-1 unit-m-1-2 unit-l-2-2">
-                <div class="media-img">
-                    <img class="img img-nonflex img-s" src="{{site.baseurl}}/images/{{page.image}}" alt="">
-                </div>
-                <div class="media-body">
-                <p> Peace and Love bracelet</p>
-                </div>
-            </div>
-        </div>
-
-            
-            <div class="media-body description">
-                    <p>{{page.paragraph}}</p>
-                     <p>{{page.sub-total}}</p>
-                     <p>{{page.shipping}}</p>
-                
-                    <div class="description price-l">
-                        <h3 class="giga">{{page.price}}</h3>
-                        <a class="btn btn-alt mega" href="{{site.baseurl}}/thank-you/">Buy</a>
+    <h1 class="gutter">Cart</h1>
+    
+            <div class="grid">
+                <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                <div class="media">
+                    <div class="media-img">
+                        <img class="img img-nonflex cart" src="{{site.baseurl}}/images/{{page.image}}" alt="">
                     </div>
+                    <div class="media-body">
+                        <p> Peace and Love bracelet</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-2-2">
+                <div class="media">
+                    <div class="media-img">
+                        <img class="img img-nonflex cart" src="{{site.baseurl}}/images/{{page.image}}" alt="">
+                    </div>
+                    <div class="media-body">
+                    <p> Peace and Love bracelet</p>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
-    </div> 
+    
+                
+                <div class="media-body description">
+                        <p>{{page.paragraph}}</p>
+                         <p>{{page.sub-total}}</p>
+                         <p>{{page.shipping}}</p>
+                    
+                        <div class="description price-l">
+                            <h3 class="giga">{{page.price}}</h3>
+                            <a class="btn btn-alt mega" href="{{site.baseurl}}/thank-you/">Buy</a>
+                        </div>
+                </div>
+            </div>
+        </div> 

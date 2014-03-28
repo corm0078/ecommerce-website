@@ -104,4 +104,9 @@ nav ul{
 .up{
     margin-top: -2rem;
 }
-    
+  
+.logo-link,
+.logo-link:link,
+.logo-link:visited{
+     border: 0;   
+    }
