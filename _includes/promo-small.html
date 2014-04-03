@@ -1,17 +1,20 @@
-
-<div class="small-promo">
-    <div class="product">
-         <h2 class="bar exa">{{include.title}}</h2>
-    
-        <div class="media">
-            <div class="media-img">
-                <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+<a class=" {% if page.url == '/' %}current{% endif%}"href="{{site.baseurl}}shop/bracelet/">
+    <div class="small-promo">
+        <div class="product">
+             <h2 class="bar exa">{{include.title}}</h2>
+        
+            <div class="media">
+                <div class="media-img">
+                    <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+                </div>
+            </div>
+            
+            <div class="bar-bottom">
+                {{include.desc}}
             </div>
         </div>
-        
-        <a class="bar-bottom {% if page.url == '/' %}current{% endif%}"href="{{site.baseurl}}shop/bracelet/">{{include.desc}}</a>
     </div>
-</div>
+</a>
     
 
 
