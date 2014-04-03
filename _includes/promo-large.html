@@ -1,11 +1,11 @@
 <div class="promo-large">
     <div class="media">
         <div>
-            <img class=promo-l src="{{site.baseurl}}/images/{{include.image}}" alt="">
+            <img class="promo-l" src="{{site.baseurl}}/images/{{include.image}}" alt="">
         </div>
         <div class="media-body body-promo-l">
 			<h2 class="yotta">{{include.title}}</h2>
-			<a class="bar-btn peta" href="#">{{include.desc}}</a>
+			<a class="bar-btn peta {% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/shop/necklace/">{{include.desc}}</a>
         </div>
     </div>
 </div>
