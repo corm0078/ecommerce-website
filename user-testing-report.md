@@ -3,8 +3,8 @@
 User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
 
 - {Sam Faubert}
-- {}
-- {}
+- {Alex Morrow}
+- {Makayla Peacock}
 
 ## Tasks
 
@@ -18,27 +18,22 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Sam Faubert}
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {found the bracelet as expected…}
+- {did not use the search bar used shop instead}
+- {tried clicking on the hole image not just link...these should be fixed.}
+- {Goes back to home page not shop}
 
-### {}
+### {Alex Morrow}
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {used the search bar}
+- {did everything as expected}
+- {used the navigation very well}
 
-### {}
+### {Makayla Peacock}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Didnt see there was a nav the top}
+- {Used the back errow instead of the shop item at the top}
+- {Goes know how to go bakc to items}
 
 ---
 
@@ -46,15 +41,16 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {Most participant didnt think of using the search bar}
+- {All found the items easy in the different way expected}
+- {should be a back to items of keep shoping after selecting an item.}
+- {Links for promo dont work}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {all participant successed all the task…}
+
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {I think that all the images should work as links as well}
