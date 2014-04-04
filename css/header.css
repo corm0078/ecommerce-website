@@ -46,7 +46,10 @@ nav ul{
     width: 10rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-left: -15%;
+}
+
+.logo-box{
+ text-align: center;   
 }
 
 .large-nav{
@@ -58,20 +61,11 @@ nav ul{
      nav ul{
          text-align: center;   
      }
-    
-     .logo{
-         margin-left: 5%;
-     }
         
      .search{
         text-align: right;
       }
 
-@media only screen and (min-width: 50em) {
-      .logo{
-            margin-left: -10%;
-      }
-}
 
 @media only screen and (min-width: 65em) {
      .small-nav{

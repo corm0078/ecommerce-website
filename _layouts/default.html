@@ -26,8 +26,8 @@
     <link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
 </head>
     <body>
-     <header>   
-            <nav>
+     <header role="banner">   
+            <nav role="navigation">
                 <ul class="large-nav giga">
                     <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a></a></li>
                     <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a></li>
@@ -37,7 +37,7 @@
         
            
                 <div id="search" class="search">
-                    <form action="{{site.baseurl}}/search/" method="get">
+                    <form action="{{site.baseurl}}/search/" method="get" role="search">
                         <fieldset class="clearfix">
                             <input type="search" name="search" placeholder="Find Your Jelwery" >
                             <input type="submit" value="Search" class="btn btn-alt mega">
@@ -51,8 +51,8 @@
                   </div>
             </nav>
             
-            <div class="unit-offset-xs-1-3 unit-offset-m-1-2">
-            <a class="logo-link {% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/"><img class="logo" src={{site.baseurl}}/images/logo.svg alt="logo"></a>
+            <div>
+            <a class="logo-box block-link logo-link {% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/"><img class="logo" src={{site.baseurl}}/images/logo.svg alt="logo"></a>
             </div>
             
             <nav class="small-nav">
@@ -63,7 +63,7 @@
                     <li class="list-group-item list-group-item-inline"><a href="#">Contact</a></li>
                 </ul>
             </nav>
-          </header>
+    </header>
 
 
         {% if page.showbanner %}
@@ -126,7 +126,7 @@
                  </ul> 
               </section>
                 
-                <div class="copyright micro">
+                <div class="copyright micro" role="contentinfo">
                     <p>©2014Copyright Reserved to Jewlery & Company and its partners. Any attempt at duplicating or using its material will result in legal implications. This page is subject to jewlery & company <a link href="#">Tems & conditions</a></p>
                 </div> 
                    

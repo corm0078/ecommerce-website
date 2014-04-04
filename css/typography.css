@@ -111,6 +111,17 @@ a:active {
   border-bottom-color: rgb(35, 83, 105);
 }
 
+a:hover,
+a:active{
+    outline: none;   
+}
+
+a:focus,
+input:focus,
+button:focus{
+ outline: 2px solid #000;   
+}
+
 ul{
   list-style-type: none;
 }
@@ -226,5 +237,12 @@ th {
 
 .margin2{
  margin: 2rem;   
+}
+
+.block-link,
+.block-link:link,
+.block-link:visited{
+ display: block;
+ border-bottom: 0;
 }
 

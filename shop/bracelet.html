@@ -6,20 +6,22 @@ meta: Discover all the bracelet jewelry Koral has to offer.
 
 {% include shop-nav.html %}
 
-<h1>{{page.title}}</h1>
-
-<div class="grid">
-        <ul>
-            {% for shop in site.pages %}
-                {% if shop.category == 'bracelet' %}
-                    <li class="list-group list-group-item unit unit-s-1 unit-m-1-2 unit-l-1-2">
-                        <a class="tera unit unit-s-1 unit-m-1-2 unit-l-2-2" href="{{site.baseurl}}{{shop.url}}">
-                             <img class="img img-flex" src="{{site.baseurl}}/images/{{shop.image}}" alt="">
-                            {{shop.title}}
-                         </a>
-                    </li>
-                {% endif %}
-             {% endfor %}
-        </ul>
+<main role="main">
+    <h1>{{page.title}}</h1>
+    
+    <div class="grid">
+            <ul>
+                {% for shop in site.pages %}
+                    {% if shop.category == 'bracelet' %}
+                        <li class="list-group list-group-item unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                            <a class="tera unit unit-s-1 unit-m-1-2 unit-l-2-2" href="{{site.baseurl}}{{shop.url}}">
+                                 <img class="img img-flex" src="{{site.baseurl}}/images/{{shop.image}}" alt="{{page.alt}}">
+                                {{shop.title}}
+                             </a>
+                        </li>
+                    {% endif %}
+                 {% endfor %}
+            </ul>
+        </div>
     </div>
-</div>
+</main>

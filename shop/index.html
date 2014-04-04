@@ -5,44 +5,46 @@ meta: Discover all the jewelry Koral has to offer.
 ---
 {% include shop-nav.html %}
 
-<h1 class="margin2">{{page.title}}</h1>
-
-<div>
-    <div class="text-center">
-                <p class=" tera">Discover everything Koral has to offer.</p>
-    </div>
- </div>
-
-
-<div class="grid">
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+<main role="main">
+    <h1 class="margin2">{{page.title}}</h1>
+    
+    <div>
+        <div class="text-center">
+                    <p class=" tera">Discover everything Koral has to offer.</p>
+        </div>
+     </div>
+    
+    
+    <div class="grid">
+        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+            <ul>
+            {% for shop in site.pages %}
+                {% if shop.category == 'bracelet' %}
+                    <li class="list-group list-group-item">
+                        <a class="tera block-link" href="{{site.baseurl}}{{shop.url}}">
+                            <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                            {{shop.title}}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    
+        
+      <div class="unit unit-s-1 unit-m-1-2 unit-l-2-2">
         <ul>
-        {% for shop in site.pages %}
-            {% if shop.category == 'bracelet' %}
-                <li class="list-group list-group-item">
-                    <a class="tera" href="{{site.baseurl}}{{shop.url}}">
-                        <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
-                        {{shop.title}}
-                    </a>
-                </li>
+            {% for shop in site.pages %}
+                {% if shop.category == 'necklace' %}
+                    <li class="list-group list-group-item">
+                        <a class="tera block-link" href="{{site.baseurl}}{{shop.url}}">
+                            <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                            {{shop.title}}
+                        </a>
+                    </li>
                 {% endif %}
             {% endfor %}
         </ul>
+      </div>
     </div>
-
-    
-  <div class="unit unit-s-1 unit-m-1-2 unit-l-2-2">
-    <ul>
-        {% for shop in site.pages %}
-            {% if shop.category == 'necklace' %}
-                <li class="list-group list-group-item">
-                    <a class="tera" href="{{site.baseurl}}{{shop.url}}">
-                        <img class="img img-nonflex " src="{{site.baseurl}}/images/{{shop.image}}" alt="">
-                        {{shop.title}}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
-  </div>
-</div>
+</main>
