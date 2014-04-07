@@ -90,9 +90,8 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Alyssa Dicaire}
 
-- {Didnt see there was a nav the top}
-- {Used the back errow instead of the shop item at the top}
-- {Goes know how to go bakc to items}
+- {took a while to get use to the voice command but found the item with difficulty}
+- {found that the pictures alt did not work}
 
 ---
 
@@ -100,16 +99,17 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {Most participant didnt think of using the search bar}
-- {All found the items easy in the different way expected}
-- {should be a back to items of keep shoping after selecting an item.}
-- {Links for promo dont work}
+- {Most participant had a hard time with voice command in general.}
+- {They found the iteams in the end}
+- {some of the images the alt tags did not work.}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
 - {all participant successed all the task…}
+- {The shopping cart wasnt saying what it was.}
+- {The images alt tag dont work.}
 
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {I think that all the images should work as links as well}
+- {once i fixed the shopping cart now there is a bar and shopping cart at small size disaperes.}
