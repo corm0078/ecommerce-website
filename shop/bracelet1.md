@@ -4,7 +4,7 @@ category: bracelet
 title: Peace and love
 image: bracelets/bracelet1.jpg
 h2: Peace and love
-paragraph: Bacon ipsum dolor sit amet ribeye corned beef brisket ham sirloin, pancetta jowl. Jowl kielbasa tri-tip beef ribs meatball shankle beef venison. Prosciutto jowl tail, biltong ham hock fatback doner drumstick bresaola shoulder. Pork chop andouille jowl t-bone prosciutto pork loin pastrami ham fatback filet mignon short loin beef ribs. Pork loin jerky landjaeger biltong t-bone tri-tip ribeye pig brisket ball tip tail.
+paragraph: This beautiful made necklace is a modern pace that will go with a laid back look but would still be stylish and fun. The necklace is made of the highest quality thread that is naughed all the way to the beautiful pendants. The two peace pendants are overlaid small bleu one over an larger gold one. This peace bracelet will agreee with your wardrobe
 price: 15.99$ CAN
 button: Add to Cart
 alt: peace bracelet with a bleu part added.
