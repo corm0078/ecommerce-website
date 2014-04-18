@@ -1,10 +1,10 @@
 ---
 layout: shop
 category: necklace 
-title: Peace and Love
+title: Vintage Love
 image: necklaces/necklace5.jpg
-h2: Peace and Love
-paragraph: Bacon ipsum dolor sit amet ribeye corned beef brisket ham sirloin, pancetta jowl. Jowl kielbasa tri-tip beef ribs meatball shankle beef venison. Prosciutto jowl tail, biltong ham hock fatback doner drumstick bresaola shoulder. Pork chop andouille jowl t-bone prosciutto pork loin pastrami ham fatback filet mignon short loin beef ribs. Pork loin jerky landjaeger biltong t-bone tri-tip ribeye pig brisket ball tip tail.
-price: 15.99$ CAN
+h2: Vintage Love
+paragraph: This necklace is a show stoper that will make everyone take a second look. This gold necklace pendant has a clock, a heart, a globe, and a lock it this necklace is a lot of fun and works great with red clothing since it has red accents beads. 
+price: 35.99$ CAN
 alt: black think bracelet with gold elements.
 ---

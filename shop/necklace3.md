@@ -1,11 +1,11 @@
 ---
 layout: shop
 category: necklace 
-title: In Love
+title: Accent
 image: necklaces/necklace3.jpg
-h2: In Love
-paragraph: Bacon ipsum dolor sit amet ribeye corned beef brisket ham sirloin, pancetta jowl. Jowl kielbasa tri-tip beef ribs meatball shankle beef venison. Prosciutto jowl tail, biltong ham hock fatback doner drumstick bresaola shoulder. Pork chop andouille jowl t-bone prosciutto pork loin pastrami ham fatback filet mignon short loin beef ribs. Pork loin jerky landjaeger biltong t-bone tri-tip ribeye pig brisket ball tip tail.
-price: 15.99$ CAN
+h2: Accent
+paragraph: This gold necklace is a accent to any simple outfit this element will bring that spark to all your clothing. The gold chain was a multitude of bleu elements added to 3 levels in 3 sizes.
+price: 25.99$ CAN
 button: Add to Cart
 alt: black think bracelet with gold elements.
 ---
