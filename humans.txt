@@ -2,16 +2,33 @@
 
 # TEAM
 
+Designer & Developer: Martine Cormier
+Twitter: @Martine-cormier
+Location: Ottawa, Canada
+
+
+Copyright ©martinecormier2014  
+
+Photo rights belong to Colombina Anzivino and Myself Martine Cormier
 
 
 ---
 
 # THANKS
 
-Public domain images from copyrightexpired.com
+A big thanks goes out to Thomas J Bradley for all the advice and classes. I also need to thank Colombina Anzivino for all the late night coding dates couldnt of done it without you! 
+
+
 
 ---
 
 # TECHNOLOGY
 
+Thanks to github
 
+
+/* Site */
+Last update: 2014/04/24
+Standards: html5, css3
+Components: Modernizr, Jquery,
+Software: Brackets

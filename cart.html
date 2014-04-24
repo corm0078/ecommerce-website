@@ -5,7 +5,8 @@ image: bracelets/bracelet2.jpg
 paragraph: Iteam name 9.99$
 sub-total: Sub-total 10.00$
 shipping: Shipping 5.99$
-price: Total 15.99$ CAN
+price: Total 21.99$ CAN
+taxes: Taxes 5.99$
 ---
 <main role="main">
     <h1 class="gutter">Cart</h1>
@@ -37,8 +38,9 @@ price: Total 15.99$ CAN
                 
                 <div class="media-body description">
                         <p>{{page.paragraph}}</p>
-                         <p>{{page.sub-total}}</p>
-                         <p>{{page.shipping}}</p>
+                        <p>{{page.sub-total}}</p>
+                        <p>{{page.taxes}}</p>
+                        <p>{{page.shipping}}</p>
                     
                         <div class="description price-l">
                             <h3 class="giga">{{page.price}}</h3>
