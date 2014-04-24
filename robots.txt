@@ -1,0 +1,11 @@
+# Hashes are comments
+
+# http://en.wikipedia.org/wiki/Robots_exclusion_standard
+# http://www.robotstxt.org
+
+Sitemap: http://corm0078.github.io/ecommerce-website.xml
+
+User-agent: *
+
+Disallow: /tmp/
+Disallow: /assets/
